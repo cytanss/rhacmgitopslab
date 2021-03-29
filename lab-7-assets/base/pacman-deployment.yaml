@@ -26,7 +26,7 @@ spec:
           # Single member MongoDB
           # value: primarymongohere
           # Replicaset (federated) MongoDB
-          value: replicamembershere
+          value: mongo-cluster1.apps.cluster-3586.3586.sandbox1023.opentlc.com,mongo-cluster2.apps.cluster-2580.gcp.testdrive.openshift.com,mongo-cluster3.apps.cluster-86af.86af.sandbox254.opentlc.com
           # Comment out MONGO_REPLICA_SET for the single-member Mongo
         - name: MONGO_REPLICA_SET
           value: rs0
