@@ -6,4 +6,3 @@ bases:
 - ../../base
 patchesStrategicMerge:
 - mongo-route.yaml
-- mongo-rs-deployment.yaml
